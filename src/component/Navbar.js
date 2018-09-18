@@ -1,16 +1,13 @@
 import React from "react"
 
-
-const Navigationbar = () => {
+const navbar = () => {
   return (
-    <div className="navigationbar">
-
+    <div className="navbar">
       <a href="/">IDEA</a>
       <a href="/">PROJECT</a>
       <a href="/">COMPANY</a>
     </div>
-
   )
-};
+}
 
-export default Navigationbar;
+export default navbar
