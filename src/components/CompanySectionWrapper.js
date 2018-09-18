@@ -1,12 +1,14 @@
 import React from "react"
 
-const CompanySectionWrapper = (props) => {
-  return (
-    <section id='company-info-wrapper'>
-        <h3>{props.title}</h3>
-
-    </section>
-  )
-};
+class CompanySectionWrapper extends React.Component {
+  render() {
+    return (
+      <section id='company-info-wrapper'>
+        <h3>{this.props.title}</h3>
+        {this.props.children}
+      </section>
+    )
+  }
+}
 
 export default CompanySectionWrapper

@@ -1,7 +1,6 @@
 import React from "react"
 
 class PageSection extends React.Component {
-
     render() {
         return (
             <section id={this.props.title} className='page-section'>
