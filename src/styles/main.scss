@@ -1,3 +1,15 @@
+@import 'PageSection.scss';
+@import 'vars.scss';
+
 body {
-    background: red;
+    color: $white;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
 }
