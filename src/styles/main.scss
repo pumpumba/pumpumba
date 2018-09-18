@@ -1,6 +1,21 @@
+@import 'page-section.scss';
+@import 'vars.scss';
 @import 'header.scss';
 @import 'navbar.scss';
 
 body {
-    background: red;
+    color: $white;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
 }

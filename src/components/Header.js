@@ -1,11 +1,11 @@
-import React from "react"
-import navbar from "./navbar"
+import React from 'react'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
     <header>
       header här
-        <navbar/>
+        <Navbar/>
     </header>
   )
 }
