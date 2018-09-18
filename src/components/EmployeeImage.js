@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const EmployeeImage = (props) => {
   return (
@@ -9,6 +9,6 @@ const EmployeeImage = (props) => {
         </div>
     </div>
   )
-};
+}
 
 export default EmployeeImage

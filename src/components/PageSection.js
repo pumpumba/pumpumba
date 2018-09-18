@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 class PageSection extends React.Component {
     render() {
@@ -10,6 +10,6 @@ class PageSection extends React.Component {
             </section>
         )
     }
-};
+}
 
 export default PageSection

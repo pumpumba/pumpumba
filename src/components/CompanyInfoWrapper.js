@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 import CompanySectionWrapper from './CompanySectionWrapper'
-import EmployeeImage from "./EmployeeImage";
+import EmployeeImage from './EmployeeImage'
 
 class CompanyInfoWrapper extends React.Component {
 
@@ -21,6 +21,6 @@ class CompanyInfoWrapper extends React.Component {
             </section>
         )
     }
-};
+}
 
 export default CompanyInfoWrapper

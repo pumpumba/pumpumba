@@ -1,5 +1,5 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from 'react'
+import ReactDOM from 'react'
 import PageSection from './components/PageSection'
 import CompanyInfoWrapper from "./components/CompanyInfoWrapper"
 import Header from "./components/Header"
@@ -17,6 +17,6 @@ const Index = () => {
       </PageSection>
     </main>
   )
-};
+}
 
 ReactDOM.render(<Index />, document.getElementById("index"))
