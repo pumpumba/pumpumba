@@ -1,10 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import Header from "./component/Header"
 
 import './styles/main.scss'
 
 const Index = () => {
-  return <div>Hello Pumba!</div>;
+  return (
+    <Header/>
+  )
 };
 
 ReactDOM.render(<Index />, document.getElementById("index"))
