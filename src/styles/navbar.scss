@@ -1,7 +1,7 @@
 .navbar {
   text-align: center;
   position: center;
-  margin-top: 150px;
+  margin-top: 3em;
 
   a {
     color: white;
@@ -13,9 +13,6 @@
       color: $activeLink;
     }
   }
-
-
-
   .linkSpace{
     margin-right: 8%;
   }

@@ -5,8 +5,8 @@ import LogoImage from './../../images/hero-logo.png'
 const Header = () => {
 
     return (
-      <header>
-          <div className="headerContent"> 
+      <header class="page-section">
+          <div className="headerContent container">
             <img className="logo" src={LogoImage}  alt="Pumba logo"/>
             <Navbar/>
           </div>
