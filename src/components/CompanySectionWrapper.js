@@ -3,9 +3,11 @@ import React from 'react'
 class CompanySectionWrapper extends React.Component {
   render() {
     return (
-      <section id='company-info-wrapper'>
+      <section id='company-section-wrapper'>
         <h3>{this.props.title}</h3>
-        {this.props.children}
+        <div className='employee-images'>
+          {this.props.children}
+        </div>
       </section>
     )
   }
