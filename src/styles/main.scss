@@ -20,6 +20,11 @@ h2, h3 {
 
 h3 {
     font-size: 4em;
+
+    @media screen and (max-width: $break-small) {
+        font-size: 2em;
+    }
+
 }
 
 p {
@@ -33,5 +38,8 @@ img {
 }
 
 .container{
-    max-width: 80%;
+    max-width: 90%;
+    @media screen and (min-width: $break-small) {
+        max-width: 80%;
+    }
 }

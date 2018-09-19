@@ -1,6 +1,11 @@
 .employee-image-wrapper {
 
     width: 20%;
+
+    @media screen and (max-width: $break-small) {
+        width: 100%;
+    }
+
     margin: 1%;
 
     img {

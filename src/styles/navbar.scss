@@ -1,19 +1,19 @@
 .navbar {
   text-align: center;
-  position: center;
   margin-top: 3em;
 
   a {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    padding: 0 1em;
+    padding: 1rem 1em;
     text-decoration: none;
     transition: all 1s;
+    @media screen and (max-width: $break-small) {
+      display: block;
+    }
+
     &:hover{
       color: $activeLink;
     }
-  }
-  .linkSpace{
-    margin-right: 8%;
   }
 }
