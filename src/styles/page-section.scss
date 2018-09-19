@@ -12,11 +12,11 @@
 
     h2 {
         font-size: 8em;
-        margin-bottom: 1rem;
-    }
+        margin-bottom: 4rem;
 
-    p {
-        width: 80%;
+            @media screen and (max-width: $break-small) {
+                font-size: 4em;
+            }
     }
 }
 

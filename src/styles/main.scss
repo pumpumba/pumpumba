@@ -7,6 +7,9 @@
 @import 'company-info-wrapper.scss';
 
 body {
+    margin: 0;
+	padding: 0;
+	border: 0;
     color: $white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -17,12 +20,26 @@ h2, h3 {
 
 h3 {
     font-size: 4em;
+
+    @media screen and (max-width: $break-small) {
+        font-size: 2em;
+    }
+
 }
 
 p {
     font-size: 1.25em;
+    max-width: 768px;
+    margin: 0 auto;
 }
 
 img {
     max-width: 100%;
+}
+
+.container{
+    max-width: 90%;
+    @media screen and (min-width: $break-small) {
+        max-width: 80%;
+    }
 }
