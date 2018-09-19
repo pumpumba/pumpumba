@@ -5,9 +5,18 @@
 
   a {
     color: white;
-    font-family: 'Montserrat, Sans-serif';
-    font-size: 22px;
-    padding-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
     text-decoration: none;
+    transition: all 1s;
+    &:hover{
+      color: $activeLink;
+    }
+  }
+
+
+
+  .linkSpace{
+    margin-right: 8%;
   }
 }
