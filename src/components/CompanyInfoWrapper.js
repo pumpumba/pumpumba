@@ -25,6 +25,21 @@ class CompanyInfoWrapper extends React.Component {
             return <EmployeeImage name={person.name} title={person.title} image={require(`../../images/${person.name.replace(/ /g, '')}.jpg`)} />
         })
 
+        const communicationDetails = [
+            {
+                name: 'Sofie Bengtsson',
+                title: 'Document Responsible'
+            },
+            {
+                name: 'Oscar Andreasson',
+                title: 'Communications manager / Line manager'
+            }
+        ]
+
+        const communicationImages = communicationDetails.map(person => {
+            return <EmployeeImage name={person.name} title={person.title} image={require(`../../images/${person.name.replace(/ /g, '')}.jpg`)} />
+        })
+
         const pnSDetails = [
             {
                 name: 'Herman Eklund',
@@ -123,6 +138,9 @@ class CompanyInfoWrapper extends React.Component {
             <section id='company-info-wrapper'>
                 <CompanySectionWrapper title={'Management'}>
                     {managmentImages}
+                </CompanySectionWrapper>
+                <CompanySectionWrapper title={'Communications'}>
+                    {communicationImages}
                 </CompanySectionWrapper>
                 <CompanySectionWrapper title={'P&S'}>
                     {pnSImages}
