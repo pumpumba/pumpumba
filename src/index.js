@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import PageSection from './components/PageSection'
 import CompanyInfoWrapper from "./components/CompanyInfoWrapper"
-import Header from "./components/Header"
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 import './styles/main.scss'
 
@@ -20,6 +21,7 @@ const Index = () => {
       <PageSection title={'Company'} copy={companytText}>
         <CompanyInfoWrapper />
       </PageSection>
+      <Footer/>
     </main>
   )
 }

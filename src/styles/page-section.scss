@@ -1,12 +1,14 @@
 @import 'vars.scss';
 
 .page-section{
+    border-top: .75em solid $white;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 90vh;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 10vh;
 
     h2 {
         font-size: 8em;
