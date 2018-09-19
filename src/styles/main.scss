@@ -2,9 +2,13 @@
 @import 'vars.scss';
 @import 'header.scss';
 @import 'navbar.scss';
+@import 'footer.scss';
+@import 'employee-image.scss';
+@import 'company-info-wrapper.scss';
 
 body {
     color: $white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2, h3 {
@@ -17,9 +21,8 @@ h3 {
 
 p {
     font-size: 1.25em;
-    font-family: 'Open Sans', sans-serif;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }

@@ -3,9 +3,9 @@ import React from 'react'
 const navbar = () => {
   return (
     <div className="navbar">
-      <a className="linkSpace" href="/">IDEA</a>
-      <a className="linkSpace" href="/">PROJECT</a>
-      <a href="/">COMPANY</a>
+      <a href="#Idea">Idea</a>
+      <a href="#Project">Project</a>
+      <a href="#Company">Company</a>
     </div>
   )
 }
