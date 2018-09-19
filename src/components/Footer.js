@@ -4,14 +4,10 @@ import Navbar from './Navbar'
 const Footer = () => {
   return (
     <footer>
-      <ul className="footerList">
-        <li>pumba ©2018 </li>
-        <li>CONTACT</li>
-        <li><a href="/">IDEA</a></li>
-        <li><a href="/">PROJECT</a></li>
-        <li><a href="/">COMPANY</a></li>
-      </ul>
-
+      <div className='container'>
+        <h3>Pumba ©2018</h3>
+        <Navbar />
+      </div>
     </footer>
   )
 }
