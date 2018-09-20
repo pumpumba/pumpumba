@@ -97,6 +97,10 @@ class CompanyInfoWrapper extends React.Component {
                 title: 'Configuration / Environmental Manager '
             },
             {
+                name: 'Filip Cornell',
+                title: 'Data Engineer / Developer'
+            },
+            {
                 name: 'Marcus Storm',
                 title: 'Developer'
             },
