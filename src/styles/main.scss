@@ -27,6 +27,24 @@ h3 {
 
 }
 
+h5 {
+    margin-bottom: 0;
+}
+
+a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  transition: all 1s;
+  @media screen and (max-width: $break-small) {
+    display: block;
+  }
+
+  &:hover{
+    color: $activeLink;
+  }
+}
+
 p {
     font-size: 1.25em;
     max-width: 768px;
