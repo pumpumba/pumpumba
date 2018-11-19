@@ -37,6 +37,10 @@ class CompanyInfoWrapper extends React.Component {
                 name: 'Oscar Andreasson',
                 title: 'Communications manager / Line manager',
                 mail: 'oscan887@student.liu.se'
+            },
+            {
+                name: 'Daniel Gibbs',
+                title: 'Technical Writer'
             }
         ]
 
@@ -123,10 +127,6 @@ class CompanyInfoWrapper extends React.Component {
             {
                 name: 'Jonatan Bjurenfalk',
                 title: 'Developer'
-            },
-            {
-                name: 'Daniel Gibbs',
-                title: 'Technical Writer'
             },
             {
                 name: 'Jonas Olaussen',
