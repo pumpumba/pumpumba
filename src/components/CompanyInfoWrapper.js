@@ -21,7 +21,12 @@ class CompanyInfoWrapper extends React.Component {
                 name: 'Isak Jansson',
                 title: 'R&D Manager',
                 mail: 'isaja339@student.liu.se'
-            }
+            },
+            {
+                name: 'Oscar Andreasson',
+                title: 'Communications manager',
+                mail: 'oscan887@student.liu.se'
+            },
         ]
 
         const managmentImages = managmentDetails.map(person => {
@@ -31,12 +36,7 @@ class CompanyInfoWrapper extends React.Component {
         const communicationDetails = [
             {
                 name: 'Sofie Bengtsson',
-                title: 'Document Responsible'
-            },
-            {
-                name: 'Oscar Andreasson',
-                title: 'Communications manager / Line manager',
-                mail: 'oscan887@student.liu.se'
+                title: 'Document Responsible / Technical Writer'
             },
             {
                 name: 'Daniel Gibbs',
@@ -72,13 +72,8 @@ class CompanyInfoWrapper extends React.Component {
                 title: 'Analyst'
             },
             {
-                name: 'Katarina Luu',
-                title: 'Deployment Manager',
-                mail: 'katlu116@student.liu.se'
-            },
-            {
                 name: 'Jesper Hedlund',
-                title: 'Data Scientist'
+                title: 'Data Scientist / Front-End'
             },
             {
                 name: 'Yu Hi',
@@ -114,7 +109,7 @@ class CompanyInfoWrapper extends React.Component {
             },
             {
                 name: 'Marcus Storm',
-                title: 'Developer'
+                title: 'Developer / Front-End'
             },
             {
                 name: 'Alexander Barbaranelli',
@@ -126,7 +121,7 @@ class CompanyInfoWrapper extends React.Component {
             },
             {
                 name: 'Jonatan Bjurenfalk',
-                title: 'Developer'
+                title: 'Developer / Front-End'
             },
             {
                 name: 'Jonas Olaussen',
